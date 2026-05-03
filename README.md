@@ -18,3 +18,12 @@ python manage.py createsuperuser (to create an admin)
 
 # WORKFLOW after creating app
 -->work on views and urls
+
+🧠 What actually happens
+User visits a URL (like /home)
+Django routes it to home(request)
+That function:
+loads home.html
+(optionally injects data)
+returns it as a web page
+User sees the page in their browser  
